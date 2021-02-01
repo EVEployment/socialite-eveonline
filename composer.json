@@ -1,0 +1,21 @@
+{
+    "name": "eveployment/socialite-eveonline",
+    "description": "EVE Online OAuth2 Provider for Laravel Socialite",
+    "type": "library",
+    "license": "GPL-2.0",
+    "require": {
+        "php": "^7.2 || ^8.0",
+        "ext-json": "*",
+        "socialiteproviders/manager": "~4.0",
+        "web-token/jwt-easy": "^2.2",
+        "web-token/jwt-signature-algorithm-hmac": "^2.2",
+        "web-token/jwt-signature-algorithm-rsa": "^2.2",
+        "web-token/jwt-signature-algorithm-ecdsa": "^2.2",
+        "web-token/jwt-core": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "EVEployment\\Socialite\\EVEOnline\\": ""
+        }
+    }
+}
